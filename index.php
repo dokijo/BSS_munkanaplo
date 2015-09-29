@@ -33,9 +33,14 @@
         
         <!-- Fejléc -->
         <div id="fejlec_div">
-            <?php
-                include 'fejlec.php';
-            ?>
+<?php
+require_once './lib.php';    
+if (kiaz() == "Vendég") {
+    include './fejlec.php';
+} else {
+    include './b_fejlec.php';
+}
+?>
         </div>
         
         <!-- Tartalom -->
