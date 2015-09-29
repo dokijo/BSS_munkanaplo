@@ -25,6 +25,7 @@
     <head>
         <meta charset="utf-8" />
         <link rel="stylesheet" href="sytle.css" type="text/css" media="screen" />
+        <link rel="icon" type="image/ico" href="images/favicon.ico" />
         <title>BSS munkanapló</title>
     </head>
     
